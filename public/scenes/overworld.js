@@ -20,7 +20,7 @@ export function render() {
                            state.position[0] === w && state.position[1] === h
                              ? "blue"
                              : tile.exit
-                             ? "#000"
+                             ? "#333"
                              : tile.enemy
                              ? "red"
                              : "#ccc";

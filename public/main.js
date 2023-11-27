@@ -28,11 +28,7 @@ export const defaultState = structuredClone(state);
 function render(scene = state.scene) {
   state.scene = scene;
   const s = getScene(scene);
-  app.innerHTML = `
-   <div class="scene-${state.scene}">
-        ${s.render()}
-   </div>
-  `;
+  app.innerHTML = s.render();
   s.setup(render);
 }
 
