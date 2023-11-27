@@ -1,4 +1,6 @@
+# layered-rouge
+
 ```
-npm install
-npm run start
+bun install
+bun start
 ```
